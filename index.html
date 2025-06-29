@@ -1,33 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Sathwik's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home | Sathwik's Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <div>Sathwik's Portfolio</div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I'm <span>Sathwik</span>, a passionate Data Analyst and Data Scientist. Explore my projects and get in touch!</p>
-        <img src="2.png" alt="" width="20%">
+  <header>
+    <nav class="navbar">
+      <div class="logo">Sathwik's Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content-section">
+    <section class="welcome-section">
+      <h1>Welcome to My Portfolio</h1>
+      <p>
+        Hi, I'm <span class="highlight">Sathwik</span>, a passionate Data Analyst and
+        Data Scientist. Explore my projects and get in touch!
+      </p>
+      <img src="ani.png.png" alt="Photo" width="490"/>
     </section>
-    
-    
-    <footer>
-        <p>&#169; 2024 Sathwik's Portfolio </p>
-    </footer>
+
+    <section class="features">
+        <h2>What I Do</h2>
+        <div class="feature-cards">
+            <div class="card">
+                <img src="data-analysis.png" alt="Analytics Icon" width="60">
+                <h3>Data Analysis</h3>
+                <p>Cleaning, visualizing and interpreting data to extract actionable insights.</p>
+            </div>
+            <div class="card">
+                <img src="Machinelearning.png" alt="Machine Learning Icon" width="60">
+                <h3>Machine Learning</h3>
+                <p>Building predictive models to solve business problems with precision.</p>
+            </div>
+            <div class="card">
+                <img src="dashboard.png" alt="Dashboard Icon" width="60">
+                <h3>Interactive Dashboards</h3>
+                <p>Creating user-friendly dashboards using Power BI and Tableau.</p>
+            </div>
+        </div>
+    </section>
+
+   <section class="section contact-section">
+    <h1>Contact Me</h1>
+    <div class="contact-card">
+      <p><strong>Mobile:</strong> +44-7887186843</p>
+      <p><strong>Email:</strong> <a href="mailto:varkutisatwik8118@gmail.com">varkutisatwik8118@gmail.com</a></p>
+      <p> <a href="https://www.linkedin.com/in/sathwik-reddy-varkuti-a8bab5230/" target="_blank">LinkedIn</a></p>
+      <p> <a href="https://github.com/Sathwikrdy" target="_blank">GitHub</a></p>
+      <p> <a href="Sathwik_Data_Analyst_Resume.pdf" target="_blank">Resume</a></p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2024 Sathwik's Portfolio</p>
+  </footer>
 </body>
 </html>

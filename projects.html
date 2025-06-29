@@ -8,50 +8,60 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div>Sathwik's Portfolio</div>
-            <ul>
+        <nav class="navbar">
+            <div class="logo">Sathwik's Portfolio</div>
+            <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
             </ul>
         </nav>
     </header>
 
-    <section>
+    <main class="content-section">
         <h1>My Projects</h1>
-        <ul class="project-list">
-            <li>
-                <strong>Incremental Data Loading and Change Data Capture with Azure Data Factory</strong><a> Azure Data Factory</a>
-                <p>Implemented an automated process for handling incremental data loading and change data capture (CDC) in Azure Data Factory, streamlining data flow and enhancing ETL processes.</p>
-            </li>
-            <li>
-                <strong>E-Commerce Website</strong><a>  React.js, Express.js, Node.js, MongoDB</a>
-                <p>Developed a full-stack E-commerce web application using React.js, Express.js, Node.js, and MongoDB. Designed intuitive interfaces and handled database integration for a smooth shopping experience.</p>
-            </li>
-            <li>
-                <strong>Extracting Client-Specified Data from Cloud-based SQL Database</strong><a>  Azure Data Factory, SQL Server</a>
-                <p>Created custom SQL queries to extract specific datasets from a cloud-based SQL server, optimizing data retrieval processes for business intelligence purposes.</p>
-            </li>
-            <li>
-                <strong>Disease Prediction</strong><a> Machine Learning</a>
-                <p>Built a machine learning model using Python to predict heart disease risk based on clinical data, utilizing algorithms like Logistic Regression and Decision Trees for accurate predictions.</p>
-            </li>
-            <li>
-                <strong>Data Visualization of 2022 T20 World Cup Batting Card</strong><a> Tableau</a>
-                <p>Visualized performance metrics of T20 World Cup players using Tableau, providing insights into player statistics and trends for better understanding of the tournament data.</p>
-            </li>
-            <li>
-                <strong>Car Sales Dashboard</strong><a> PowerBI</a>
-                <p>A Power BI dashboard visualizing car sales data, including total sales, revenue, regional distribution, popular models, and color preferences.</p>
-            </li>
 
-        </ul>
-    </section>
+        <div class="project-card">
+            <h2>Incremental Data Loading & Change Data Capture</h2>
+            <p><strong>Tools:</strong> Azure Data Factory</p>
+            <p>Automated incremental data loading and change data capture (CDC) in Azure Data Factory, enhancing data flow efficiency in ETL processes.</p>
+        </div>
+
+        <div class="project-card">
+            <h2>E-Commerce Website</h2>
+            <p><strong>Stack:</strong> React.js, Express.js, Node.js, MongoDB</p>
+            <p>Developed a full-stack e-commerce app with smooth UI, secure backend integration, and MongoDB for dynamic data handling.</p>
+        </div>
+
+        <div class="project-card">
+            <h2>Client-Specific Data Extraction from Cloud SQL</h2>
+            <p><strong>Tools:</strong> Azure Data Factory, SQL Server</p>
+            <p>Built SQL queries to extract specific datasets from a cloud SQL server for business intelligence reporting.</p>
+        </div>
+
+        <div class="project-card">
+            <h2>Disease Prediction</h2>
+            <p><strong>Tools:</strong> Python, ML Algorithms</p>
+            <p>Trained models (Logistic Regression, Decision Tree) to predict heart disease risk using real clinical data.</p>
+        </div>
+
+        <div class="project-card">
+            <h2>2022 T20 World Cup Analysis</h2>
+            <p><strong>Tool:</strong> Tableau</p>
+            <p>Created visual dashboards to analyze player performance and team statistics for the 2022 T20 World Cup.</p>
+        </div>
+
+        <div class="project-card">
+            <h2>Car Sales Dashboard</h2>
+            <p><strong>Tool:</strong> Power BI</p>
+            <p>Designed a BI dashboard to visualize total sales, revenue, regions, and customer preferences.</p>
+        </div>
+        <p><a href="https://github.com/Sathwikrdy" target="_blank">More on GitHub</a></p>
+
+    </main>
 
     <footer>
-        <p>&#169; 2024 Sathwik's Portfolio </p>
+        <p>&copy; 2024 Sathwik's Portfolio</p>
     </footer>
 </body>
 </html>
